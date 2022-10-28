@@ -31,13 +31,14 @@ This setup runs in Python 3.9.5. You can install the required libraries through 
 pip install -r requirements.txt
 ```
 
-Then navigate to the folder in your terminal and serve the docs.
+Then navigate to the  `src` folder in your terminal and serve the docs.
 
 ```
+cd ./src
 mkdocs serve
 ```
 
-> You may need to prefix these commands with either `python3 -m` for Unix systems or `py -m` for Windows systems if the python modules were not properly installed onto the path.
+> You may need to prefix the `pip` or `mkdocs` command with either `python3 -m` for Unix systems or `py -m` for Windows systems if the python modules were not properly installed onto the path.
 
 ## Citation
 
