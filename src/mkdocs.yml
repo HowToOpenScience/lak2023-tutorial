@@ -12,6 +12,8 @@ copyright: Copyright &copy; 2022 - 2023 Aaron Haim
 
 markdown_extensions:
   - abbr
+  - attr_list
+  - md_in_html
   - pymdownx.caret
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
