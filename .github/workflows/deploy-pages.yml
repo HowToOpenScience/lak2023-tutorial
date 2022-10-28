@@ -14,7 +14,7 @@ jobs:
   deploy:
     # Execute only for our own repo so as not to be annoying
     if: github.repository == 'HowToOpenScience/lak2023-tutorial'
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3.1.0
@@ -24,6 +24,7 @@ jobs:
         with:
           python-version: 3.9.5
           architecture: x64
+          cache: 'pip' # cache pip dependencies
 
       - name: Install pip Requirements
         run: pip install -r requirements.txt
