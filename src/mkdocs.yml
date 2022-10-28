@@ -35,5 +35,9 @@ extra:
 
 nav:
   - Home: index.md
+  - Background: background.md
+  - Agenda: agenda.md
+  - Supplemental Materials: supplemental.md
+  - Organizers: organizers.md
   - Attributions: attr.md
   - License: https://creativecommons.org/licenses/by/4.0/

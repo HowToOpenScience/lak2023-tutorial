@@ -1,8 +1,3 @@
----
-hide:
-  - footer
----
-
 # Attributions
 
 The following tools and libraries were used in the creation of this webpage:
