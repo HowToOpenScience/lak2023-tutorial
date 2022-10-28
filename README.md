@@ -4,7 +4,7 @@
 
 *How to Open Science: Promoting Principles and Reproducibility Practices within the Learning Analytics Community* is a tutorial to be presented at the [*13th International Conference on Learning Analytics and Knowledge*][lak].
 
-This project serves as the repository holding the webpage.
+This project serves as the repository holding the webpage. The rendered version can be viewed at https://lak2023-tutorial.howtoopenscience.com
 
 ## License
 
