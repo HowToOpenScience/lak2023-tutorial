@@ -16,13 +16,18 @@ jobs:
     if: github.repository == 'HowToOpenScience/lak2023-tutorial'
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3.1.0
-      - uses: actions/setup-python@v4.3.0
+      - name: Checkout Repository
+        uses: actions/checkout@v3.1.0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4.3.0
         with:
           python-version: '3.9.5'
           cache: 'pip' # cache pip dependencies
+
       - name: Install pip Requirements
         run: pip install -r requirements.txt
+
       - name: Deploy Github Pages
         run: mkdocs gh-deploy --force
         working-directory: ./src
