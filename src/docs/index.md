@@ -8,7 +8,7 @@ Across the past decade, open science has increased in momentum, making research 
 
 This project is available on the [Open Science Foundation][osf] under the [CC-BY-4.0 License][cc4].
 
-[osf]: https://doi.org/10.17605/osf.io/4ubjy
+[osf]: https://doi.org/10.17605/osf.io/kyxba
 *[CC-BY-4.0]: Creative Commons Attribution 4.0 International
 [cc4]: https://creativecommons.org/licenses/by/4.0/
 

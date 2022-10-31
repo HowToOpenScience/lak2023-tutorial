@@ -45,8 +45,8 @@ mkdocs serve
 ```
 @misc{Haim_Shaw_Heffernan_2022,
   title={How to Open Science: Promoting Principles and Reproducibility Practices within the Learning Analytics Community},
-  url={osf.io/4ubjy},
-  DOI={10.17605/OSF.IO/4UBJY},
+  url={osf.io/kyxba},
+  DOI={10.17605/OSF.IO/KYXBA},
   publisher={OSF},
   author={Haim, Aaron and Shaw, Stacy T and Heffernan, Neil T, III},
   year={2022},
@@ -54,8 +54,8 @@ mkdocs serve
 }
 ```
 
-[badge]: https://img.shields.io/badge/OSF-10.17605%2Fosf.io%2F4ubjy-blue
-[osf]: https://doi.org/10.17605/osf.io/4ubjy
+[badge]: https://img.shields.io/badge/OSF-10.17605%2Fosf.io%2Fkyxba-blue
+[osf]: https://doi.org/10.17605/osf.io/kyxba
 
 [lak]: https://www.solaresearch.org/events/lak/lak23/
 
