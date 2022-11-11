@@ -10,11 +10,9 @@ The following tools and libraries were used in the creation of this webpage:
 - [IconPark Outline unlock-one][icon], available under the [Apache-2.0 License][apache]
 
 [python]: https://www.python.org/
-*[PSF]: Python Software Foundation
 [psf]: https://docs.python.org/3.9/license.html#psf-license-agreement-for-python-release
 
 [mkdocs]: https://www.mkdocs.org/
-*[BSD-2-Clause]: BSD 2-Clause "Simplified"
 [bsd]: https://github.com/mkdocs/mkdocs/blob/master/LICENSE
 
 [material]: https://squidfunk.github.io/mkdocs-material/
@@ -28,3 +26,5 @@ The following tools and libraries were used in the creation of this webpage:
 
 [icon]: https://github.com/bytedance/IconPark
 [apache]: https://github.com/bytedance/IconPark/blob/master/LICENSE
+
+--8<-- "includes/abbreviations.md"

@@ -8,7 +8,7 @@ This project serves as the repository holding the webpage. The rendered version 
 
 ## License
 
-The content of this Open Science Foundation project is under the [Creative Commons Attribute 4.0 International License][cc4].
+The content of this Open Science Framework project is under the [Creative Commons Attribute 4.0 International License][cc4].
 
 ## Local Setup
 
