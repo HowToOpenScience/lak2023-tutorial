@@ -1,10 +1,16 @@
-const TIME_FORMAT_REGEX = /(.+) \$(\d{4}-\d{2}-\d{2}) ((?:\d{2}:\d{2}:\d{2}-\d{2}:\d{2}:\d{2},?)+) (\w+)\$/g;
+const TIME_FORMAT_REGEX = /(.*)#(.+)# \$(\d{4}-\d{2}-\d{2}) ((?:\d{2}:\d{2}:\d{2}-\d{2}:\d{2}:\d{2},?)+) (\w+)\$(.*)/g;
 
 var time_replace = document.getElementsByClassName("time_format");
 
 for (var i = 0; i < time_replace.length; i++) {
-    var matches = [...time_replace[i].innerText.matchAll(TIME_FORMAT_REGEX)][0];
-    var formatted = `${matches[1]} `, date = matches[2], time_periods = matches[3].split(','), time_zone = matches[4];
+    var matches = [...time_replace[i].innerHTML.matchAll(TIME_FORMAT_REGEX)][0];
+    var prefix = matches[1],
+        regular = matches[2]
+        date = matches[3],
+        time_periods = matches[4].split(','),
+        time_zone = matches[5],
+        suffix = matches[6];
+    var formatted = "";
 
     var first_date = undefined;
 
@@ -28,5 +34,5 @@ for (var i = 0; i < time_replace.length; i++) {
         if (time_period < time_periods.length - 1) formatted += ", ";
     }
     formatted += ` UTC${first_date.toString().split('GMT')[1]}`;
-    time_replace[i].innerText = formatted;
+    time_replace[i].innerHTML = `${prefix}<abbr title="${formatted}">${regular}</abbr>${suffix}`;
 }
