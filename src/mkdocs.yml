@@ -25,6 +25,9 @@ markdown_extensions:
           - overrides/.icons
   - pymdownx.snippets
 
+extra_javascript:
+  - js/time.js
+
 extra:
   social:
     - icon: fontawesome/brands/creative-commons-by
