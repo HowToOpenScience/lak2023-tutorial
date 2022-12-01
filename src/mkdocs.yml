@@ -42,7 +42,8 @@ extra:
     
 
 nav:
-  - Home: index.md
+  - < Home: https://howtoopenscience.com
+  - Introduction: index.md
   - Background: background.md
   - Agenda: agenda.md
   - Supplemental Materials: supplemental.md
