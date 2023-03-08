@@ -1,8 +1,5 @@
 # Supplemental Materials
 
-!!! note
-    This page is currently under development. The information provided is subject to change.
-
 We want to provide you with all the resources we may use during our tutorial. You can find all the tools and links here in addition to their License and Terms of Use (ToU) / Service (ToS).
 
 ## [ORCID iD][orcid]
