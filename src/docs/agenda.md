@@ -1,7 +1,29 @@
 # Agenda
 
-!!! note
-    This section is currently under development. The information provided is subject to change.
+The times provided are approximated for the maximum amount of time spent on each section. The sections may be shorter depending on the session.
+
+1. **Introduction to Open Science Practices (Lecture)** - 1 hour
+    1. Why should we do Open Science?
+    1. A Brief Disclaimer
+    1. Preregistration
+        1. Side Note: Registered Reports
+    1. Open Data
+    1. Open Materials
+    1. Publishing Papers
+        1. Open Access
+        1. Preprints
+    1. Break and Q&A
+1. **Working with the Open Science Framework (Interactive)** - 30 minutes
+    1. OSF Project
+    1. OSF Preregistration
+    1. Break and Q&A
+1. **Debugging and Fixing Reproducibility (Interactive)** - 50 minutes
+    1. What software do you use?
+    1. Reproducibility as relevant to the participants
+    1. Break and Q&A
+1. **Fixing Reproducibility within Others Work (Interactive)** - 40 minutes
+    1. Gurung, A., Botelho, A. F., Heffernan, N. T. (2021). Examining Student Effort on Help through Response Time Decomposition. In LAK21: 11th International Learning Analytics and Knowledge Conference (LAK21). Association for Computing Machinery, New York, NY, USA, 292–301. [https://doi.org/10.1145/3448139.3448167](https://doi.org/10.1145/3448139.3448167)
+    1. Shaw, S. T., Luna, M. L., Rodriguez, B., Yeh, J., Villalta, N., Ramirez, G. (2022). Mathematical Creativity in Elementary School Children: General Patterns and Effects of an Incubation Break. Front. Educ. 7:835911. [https://doi.org/10.3389/feduc.2022.835911](https://doi.org/10.3389/feduc.2022.835911)
 
 ## Tutorial Structure
 
