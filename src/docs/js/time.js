@@ -8,7 +8,7 @@ for (var i = 0; i < time_replace.length; i++) {
     // Get matches for time format
     var matches = [...time_replace[i].innerHTML.matchAll(TIME_FORMAT_REGEX)][0];
     var prefix = matches[1],
-        display = matches[2]
+        display = matches[2],
         date = matches[3],
         time_periods = matches[4].split(','),
         time_zone = matches[5],
